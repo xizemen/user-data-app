@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>User Form</title>
+</head>
+<body>
+    <section id="userFormSection">
+        <form action="https://sample123.com/user" method="post">
+            <label for="firstName">First name:</label><br>
+            <input type="text" id="firstName" name="firstName" placeholder="Your first name"><br><br>
+
+            <label for="lastName">Last name:</label><br>
+            <input type="text" id="lastName" name="lastName" placeholder="Your last name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" placeholder="Your email"><br><br>
+
+            <label for="phoneNumber">Phone Number:</label><br>
+            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Your phone number"><br><br>
+
+            <label for="socialNetworkLink">Link to your social network profile:</label><br>
+            <input type="url" name="socialNetworkLink" id="socialNetworkLink"
+                   placeholder="https://example.com"><br><br>
+
+            <p>Choose your subscription:</p>
+            <div>
+                <input type="radio" id="free" name="subscription" value="free">
+                <label for="free">Free</label>
+            </div>
+            <div>
+                <input type="radio" id="premium" name="subscription" value="premium">
+                <label for="premium">Premium</label>
+            </div>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+</html>
