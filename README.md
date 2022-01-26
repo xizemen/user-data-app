@@ -10,6 +10,8 @@ There are some issues with this app. Please, try to find these types of drawback
 
 ### 1. Code Architecture
 
+Is our codebase a good one or not?
+
 Is there any way to simplify the current code?
 
 ### 2. Data Validation
